@@ -7,7 +7,7 @@ replace (
 	github.com/coredns/coredns => github.com/siderolabs/coredns v1.11.53
 
 	// see https://github.com/mdlayher/kobject/pull/5
-	github.com/mdlayher/kobject => github.com/smira/kobject v0.0.0-20240304111826-49c8d4613389
+	github.com/mdlayher/kobject => github.com/smira/kobject 19ca17470d7d
 
 	// Use nested module.
 	github.com/siderolabs/talos/pkg/machinery => ./pkg/machinery
@@ -30,7 +30,7 @@ require (
 	k8s.io/apiserver v0.30.2
 	k8s.io/client-go v0.30.2
 	k8s.io/component-base v0.30.2
-	k8s.io/cri-api v0.31.0-alpha.0.0.20240529224029-3a66d9d86654
+	k8s.io/cri-api v0.31.0-alpha.3
 	k8s.io/kube-scheduler v0.30.2
 	k8s.io/kubectl v0.30.2
 	k8s.io/kubelet v0.30.2
@@ -44,7 +44,7 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azcertificates v1.1.0
 	github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azkeys v1.1.0
 	github.com/alexflint/go-filemutex v1.3.0
-	github.com/aws/aws-sdk-go-v2/config v1.27.23
+	github.com/aws/aws-sdk-go-v2/config v1.27.24
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.9
 	github.com/aws/aws-sdk-go-v2/service/kms v1.35.1
 	github.com/aws/smithy-go v1.20.3
@@ -60,7 +60,7 @@ require (
 	github.com/containerd/typeurl/v2 v2.1.1
 	github.com/containernetworking/cni v1.2.2
 	github.com/containernetworking/plugins v1.5.1
-	github.com/coredns/coredns v1.11.2
+	github.com/coredns/coredns v1.11.3
 	github.com/coreos/go-iptables v0.7.0
 	github.com/cosi-project/runtime v0.5.1
 	github.com/distribution/reference v0.6.0
@@ -127,7 +127,7 @@ require (
 	github.com/siderolabs/gen v0.5.0
 	github.com/siderolabs/go-api-signature v0.3.3
 	github.com/siderolabs/go-blockdevice v0.4.7
-	github.com/siderolabs/go-blockdevice/v2 v2.0.0-20240610010119-f4a4030394f4
+	github.com/siderolabs/go-blockdevice/v2 d9313ea908f3
 	github.com/siderolabs/go-circular v0.2.0
 	github.com/siderolabs/go-cmd v0.1.1
 	github.com/siderolabs/go-copy v0.1.0
@@ -162,11 +162,11 @@ require (
 	go.etcd.io/etcd/etcdutl/v3 v3.5.14
 	go.uber.org/zap v1.27.0
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba
-	golang.org/x/net v0.26.0
+	golang.org/x/net v0.27.0
 	golang.org/x/oauth2 v0.21.0
 	golang.org/x/sync v0.7.0
-	golang.org/x/sys v0.21.0
-	golang.org/x/term v0.21.0
+	golang.org/x/sys v0.22.0
+	golang.org/x/term v0.22.0
 	golang.org/x/text v0.16.0
 	golang.org/x/time v0.5.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
